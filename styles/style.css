@@ -1,0 +1,49 @@
+h1 {
+  color: red;
+  font-family: Pacifico;
+
+}
+
+p {
+   1px solid black;
+  text-align: center;
+
+}
+
+p,li,h1 {
+  color: #fffefe;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p, li {
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+html {
+  background-color: #ff0000;
+}
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #940000;
+  padding: 0 40px 40px 40px;
+  border: 10px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: ##81b3fd;
+  text-shadow: 3px 3px 1px black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
