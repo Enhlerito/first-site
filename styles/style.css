@@ -14,38 +14,40 @@ p,li,h1 {
   color: #fffefe;
 }
 
-h1 {
+h1 0
   font-size: 60px;
   text-align: center;
 }
 
 p, li {
-  font-size: 15px;
-  line-height: 2;
-  letter-spacing: 1px;
 }
 
 html {
-  background-color: #ff0000;
+  background-color: #81b3fd;
+  background-image: url(../images/BG1.jpg );
 }
 body {
   width: 800px;
   margin: 0 auto;
-  background-color: #940000;
+  background-color: #0348b0;
   padding: 0 40px 40px 40px;
   border: 10px solid black;
+  background-image: url(../images/BG3.jpg );
+
 }
 
 h1 {
   margin: 0;
   padding: 20px 0;
-  color: ##81b3fd;
+  color: #81b3fd;
   text-shadow: 3px 3px 1px black;
 }
 
 img {
   display: block;
   margin: 0 auto;
+  border-radius: 10%;
+
 }
 
 h3 {
@@ -58,4 +60,17 @@ h3 {
 h2 {
   color: white;
   font-size: 30px;
+}
+
+#button{
+  background-color:#ea1cc2;
+  Width: 50px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+
+}
+
+#button :hover {
+background-color:#551A8B;
+cursor: pointer;
 }

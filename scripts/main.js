@@ -2,15 +2,15 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/thapi.jpg') {
-      myImage.setAttribute ('src','images/angela.jpg');
+    if(mySrc === 'images/P1.jpg') {
+      myImage.setAttribute ('src','images/P2.jpg');
     } else {
-      myImage.setAttribute ('src','images/thapi.jpg');
+      myImage.setAttribute ('src','images/P1.jpg');
     }
 }
 
-var myButton = document.querySelector('button');
-var myHeading = document.querySelector('h1');
+var myButton = document.getElementById('button');
+var myHeading = document.querySelector('button')('h1');
 
 function setUserName() {
   var myName = prompt('Please enter your name.');
