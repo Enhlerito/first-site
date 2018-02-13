@@ -1,76 +1,24 @@
-h1 {
-  color: red;
-  font-family: Merriweather;
+/*Marking up a letter*/
 
-}
-
-p {
-   1px solid black;
-  text-align: left;
-
-}
-
-p,li,h1 {
-  color: #fffefe;
-}
-
-h1 0
-  font-size: 60px;
-  text-align: center;
-}
-
-p, li {
-}
-
-html {
-  background-color: #81b3fd;
-  background-image: url(../images/BG1.jpg );
-}
 body {
-  width: 800px;
-  margin: 0 auto;
-  background-color: #0348b0;
-  padding: 0 40px 40px 40px;
-  border: 10px solid black;
-  background-image: url(../images/BG3.jpg );
+   max-width: 800px; margin: 0 auto; }
 
+.receiver-column {
+text-align: right;
 }
 
 h1 {
-  margin: 0;
-  padding: 20px 0;
-  color: #81b3fd;
-  text-shadow: 3px 3px 1px black;
+font-size: 1.5em;
 }
-
-img {
-  display: block;
-  margin: 0 auto;
-  border-radius: 10%;
-
-}
-
-h3 {
-  color:white ;
-  font-size: 30px;
-
-
-  }
 
 h2 {
-  color: white;
-  font-size: 30px;
+font-size: 1.3em;
 }
 
-#button{
-  background-color:#ea1cc2;
-  Width: 50px;
-  margin: 0 auto;
-  padding-bottom: 20px;
-
+p,ul,ol,dl,address {
+font-size: 1.1em;
 }
 
-#button :hover {
-background-color:#551A8B;
-cursor: pointer;
+p, li, dd, dt, address {
+line-height: 1.5em;
 }
